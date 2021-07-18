@@ -1,0 +1,25 @@
+{
+  "name": "join-resign",
+  "version": "1.0.0",
+  "description": "website for join and resign from comapany",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dhruvik94/Join-Resign.git"
+  },
+  "keywords": [
+    "join",
+    "resign",
+    "company",
+    "review"
+  ],
+  "author": "Dhruvik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhruvik94/Join-Resign/issues"
+  },
+  "homepage": "https://github.com/Dhruvik94/Join-Resign#readme"
+}
