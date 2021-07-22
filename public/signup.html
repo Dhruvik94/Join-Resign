@@ -2,29 +2,38 @@
 
 <head>
     <title>
-        Login Page
+        Sign Up Page
     </title>
 </head>
 
 <body>
-    <form action="post">
+    <form action="/login" method="POST">
         <fieldset>
-            <legend>Login</legend>
+            <legend>Sign Up Form</legend>
             <label for="first-name">First Name :</label>
             <input type="text" name="first-name" id="first-name" class="first-name" placeholder="Enter Your First Name"
                 required>
             <br>
             <br>
-            <label for="middle-name">Middle Name :</label>
-            <input type="text" name="middle-name" id="middle-name" class="middle-name"
-                placeholder="Enter Your Middle  Name">
-            <br>
-            <br><label for="last-name">Last Name :</label>
+            <label for="last-name">Last Name :</label>
             <input type="text" name="last-name" id="last-name" class="last-name" placeholder="Enter Your Last Name">
+
+            <br>
+            <br>
+            <label for="user-name">Profile Display Name :</label>
+            <input type="text" name="user-name" id="user-name" class="user-name"
+                placeholder="Profile Display  Name">
             <br>
             <br>
             <label for="email">Email Id :</label>
             <input type="email" name="email" id="email" class="email" placeholder="Enter Your Email ID" required>
+            <br>
+            <br>
+            <label for="gendar">Gendar :</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gendar" id="male" class="gendar" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gendar" id="female" class="gendar" value="Female">
             <br>
             <br>
             <label for="password">Password :</label>
@@ -41,24 +50,8 @@
             <input type="date" name="dob" id="dob" class="dob" required>
             <br>
             <br>
-            <label for="join-date">Join Date :</label>
-            <input type="date" name="join-date" id="join-date" class="join-date">
-            <br>
-            <br>
-            <label for="left-date">Left Date :</label>
-            <input type="date" name="left-date" id="left-date" class="left-date">
-            <br>
-            <br>
-            <label for="present-working">Presently Working :</label>
-            <input type="checkbox" name="present-working" id="present-working" class="present-working">
-            <br>
-            <br>
-            <label for="designation">Designation:</label>
-            <input type="text" name="designation" id="designation" class="designation"
-                placeholder="Enter Your Designation">
-            <br>
-            <br>
             <button type="submit">Login</button>
+            <button type="reset">Reset</button>
             <br>
             <br>
             <label>Alredy User? Then Click on </label>
